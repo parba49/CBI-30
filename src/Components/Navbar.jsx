@@ -3,7 +3,7 @@ import React from 'react';
 const Navbar = () => {
     return (
         <div>
-           <div className="navbar bg-base-100">
+         <div className="navbar bg-base-100">
   <div className="flex-1">
     <a className="btn btn-ghost text-xl">Book Search</a>
   </div>
@@ -16,7 +16,7 @@ const Navbar = () => {
         <div className="w-10 rounded-full">
           <img
             alt="Tailwind CSS Navbar component"
-            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
+            src="https://avatars.githubusercontent.com/u/108083254?s=400&u=dce290dcaa61f83d57833e75e06e3af6bf86b31b&v=4" />
         </div>
       </div>
       <ul

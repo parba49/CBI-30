@@ -14,7 +14,7 @@ const Sidebar = () => {
 
 
 
-             <ul className='grid grid-cols-1 gap-4'>
+       <ul className='grid grid-cols-1 gap-4'>
         <li>
           {/* <a href="/">Home</a> */}
           <NavLink to="/">Home</NavLink>
@@ -38,6 +38,8 @@ const Sidebar = () => {
 
         </li>
       </ul>
+     
+      
         </div>
     );
 };

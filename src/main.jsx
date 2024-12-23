@@ -10,12 +10,19 @@ import {
 
 import Employees from './Components/Employees/Employees.jsx';
 import Employee from './Components/Employee/Employee.jsx';
+import Home from './Components/Home.jsx';
 
 const router = createBrowserRouter([
   {
     path: "/",
     element: <App></App>,
     children:[
+
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
+
       {
         path: "/about",
         element: <h1 className='text-center'>About Us</h1>,

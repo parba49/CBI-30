@@ -9,6 +9,8 @@ import Navbar from './Components/Navbar.jsx';
 
 import Sidebar from './Components/Sidebar.jsx';
 
+// import Home from './Components/Home.jsx';
+
 function App() {
  
 
@@ -17,12 +19,15 @@ function App() {
 
    
     
-      <header className=' grid grid-cols-2 justify-between'>
+      <header className=' grid grid-cols-2 p-10 '>
 
 
-      <Sidebar></Sidebar>
+      <Sidebar ></Sidebar>
 
       <Navbar></Navbar>
+
+      {/* <Home></Home> */}
+
 
       
       
